@@ -1,0 +1,1 @@
+The following CSS rule uses a pseudo-element that is not properly nested within a selector, resulting in unexpected behavior or no effect:  .container::before { content: 'Hello'; }  This should be fixed by correctly nesting the pseudo-element selector within a valid element selector.
