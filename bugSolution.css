@@ -1,0 +1,8 @@
+The corrected CSS would look like this, ensuring the `::before` pseudo-element is properly associated with a valid element:
+
+```css
+.container::before {
+  content: 'Hello';
+}
+```
+This will only apply the `content` property if there is an element with the class `container` in the HTML.  Always ensure your pseudo-element selectors have a valid parent element.
